@@ -1,0 +1,40 @@
+{
+	"apps": [
+		{
+			"name": "tools-doc-watcher",
+			"script": "./scripts/build-docs-then-wait.sh",
+			"args": [
+				"--verbose"
+			],
+			"watch": [
+				"README.md",
+				"docs/tutorials/*.md",
+				"package.json",
+				"lib/*.js",
+				"lib/*.json",
+				"lib/**/*.js",
+				"lib/**/*.json"
+			],
+			"exec_interpreter": "bash",
+			"cwd": "./",
+			"ignore_watch": [
+				"depr."
+			],
+			"watch_options": {
+				"usePolling": true,
+				"interval": 600,
+				"followSymlinks": false
+			}
+		},
+		{
+			"name": "tools-doc-server",
+			"script": "./scripts/run-browser-sync.js",
+			"watch": false,
+			"exec_interpreter": "node",
+			"env": {
+				"//NODE_PATH": "/usr/local/share/.config/yarn/global/node_modules",
+				"NODE_PATH": "/home/ec2-user/.nvm/versions/node/v6.12.3/lib/node_modules"
+			}
+		}
+	]
+}

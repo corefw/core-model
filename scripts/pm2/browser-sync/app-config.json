@@ -1,0 +1,16 @@
+{
+	"apps": [
+		{
+			"name": "browser-sync",
+			"script": "~/.nvm/versions/node/v6.12.3/bin/browser-sync",
+			"args": [
+				"start",
+				"--config",
+				"./scripts/pm2/browser-sync/browser-sync-config.js"
+			],
+			"watch": false,
+			"exec_interpreter": "node",
+			"cwd": "./"
+		}
+	]
+}
