@@ -1,6 +1,6 @@
 {
   "name": "@corefw/model",
-  "version": "5.0.1",
+  "version": "5.0.2",
   "description": "Libraries and classes that constitute the Core FW Model (ORM + DBAL).",
   "license": "SEE LICENSE IN LICENSE.md",
   "author": "Theodor Shaytanov <brainenjii@gmail.com>",
