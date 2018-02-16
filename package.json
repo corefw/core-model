@@ -1,8 +1,8 @@
 {
   "name": "@corefw/model",
-  "version": "5.0.2",
+  "version": "5.0.3",
   "description": "Libraries and classes that constitute the Core FW Model (ORM + DBAL).",
-  "license": "SEE LICENSE IN LICENSE.md",
+  "license": "MIT",
   "author": "Theodor Shaytanov <brainenjii@gmail.com>",
   "contributors": [
     "Luke Chavers <luke@c2cschools.com>",
@@ -24,14 +24,12 @@
     "@corefw/common": "^5.0.0",
     "requireindex": "^1.1.0"
   },
-  "//dependencies": {
-  },
+  "//dependencies": {},
   "devDependencies": {
-    "jsdoc": "3.4.0",
-    "@lukechavers/jsdoc": "^0.1.7"
+    "@lukechavers/jsdoc": "^0.1.7",
+    "jsdoc": "3.4.0"
   },
-  "//devDependencies": {
-  },
+  "//devDependencies": {},
   "scripts": {
     "ci:docs": "./scripts/build-docs-ci.sh",
     "docs": "./scripts/build-docs-local.sh",
