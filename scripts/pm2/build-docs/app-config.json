@@ -2,7 +2,7 @@
 	"apps": [
 		{
 			"name": "tools-doc-watcher",
-			"script": "./scripts/build-docs-then-wait.sh",
+			"script": "./scripts/docs/build-docs-then-wait.sh",
 			"args": [
 				"--verbose"
 			],

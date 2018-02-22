@@ -1,6 +1,6 @@
 {
   "name": "@corefw/model",
-  "version": "5.0.3",
+  "version": "5.0.4",
   "description": "Libraries and classes that constitute the Core FW Model (ORM + DBAL).",
   "license": "MIT",
   "author": "Theodor Shaytanov <brainenjii@gmail.com>",
@@ -31,14 +31,13 @@
   },
   "//devDependencies": {},
   "scripts": {
-    "ci:docs": "./scripts/build-docs-ci.sh",
-    "docs": "./scripts/build-docs-local.sh",
+    "ci:docs": "./scripts/docs/build-docs-ci.sh",
+    "docs": "./scripts/docs/build-docs-local.sh",
     "browser-sync": "./scripts/pm2/browser-sync/do-pm2-action.sh",
     "build-docs": "./scripts/pm2/build-docs/do-pm2-action.sh"
   },
   "//scripts": {
-    "depr-docwatch": "./scripts/watch-and-build-docs.sh",
-    "depr-docswait": "./scripts/build-docs-then-wait.sh",
+    "depr-docswait": "./scripts/docs/build-docs-then-wait.sh",
     "docw:delete": "./scripts/pm2/doc-watcher/delete.sh",
     "docw:monitor": "./scripts/pm2/doc-watcher/monitor.sh",
     "docw:reload": "./scripts/pm2/doc-watcher/reload.sh",
