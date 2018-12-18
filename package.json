@@ -1,6 +1,6 @@
 {
   "name": "@corefw/model",
-  "version": "5.0.12",
+  "version": "5.0.13",
   "description": "Libraries and classes that constitute the Core FW Model (ORM + DBAL).",
   "license": "MIT",
   "author": "Theodor Shaytanov <brainenjii@gmail.com>",
