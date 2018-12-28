@@ -1,6 +1,6 @@
 {
   "name": "@corefw/model",
-  "version": "5.0.19",
+  "version": "5.0.20",
   "description": "Libraries and classes that constitute the Core FW Model (ORM + DBAL).",
   "license": "MIT",
   "author": "Theodor Shaytanov <brainenjii@gmail.com>",
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/corefw/core-model#readme",
   "main": "index.js",
   "dependencies": {
-    "@corefw/common": "^5.0.0",
+    "@corefw/common": "^5.1.20",
     "requireindex": "^1.1.0"
   },
   "//dependencies": {},
