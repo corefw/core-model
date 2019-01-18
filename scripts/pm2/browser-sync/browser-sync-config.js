@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /**
  * Provides configuration options for "Browser Sync"; a local, live-reload,
  * testing web server.
