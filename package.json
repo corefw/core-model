@@ -1,6 +1,6 @@
 {
   "name": "@corefw/model",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "description": "Libraries and classes that constitute the Core FW Model (ORM + DBAL).",
   "license": "MIT",
   "author": "Theodor Shaytanov <brainenjii@gmail.com>",
@@ -28,7 +28,7 @@
   "devDependencies": {
     "@lukechavers/jsdoc": "^0.1.7",
     "jsdoc": "^3.5.5",
-    "@corefw/eslint-config": "^1.0.6",
+    "@corefw/eslint-config": "^1.0.11",
     "eslint": "^5.12.0"
   },
   "//devDependencies": {},
