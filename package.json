@@ -1,6 +1,6 @@
 {
   "name": "@corefw/model",
-  "version": "5.0.27",
+  "version": "6.0.0",
   "description": "Libraries and classes that constitute the Core FW Model (ORM + DBAL).",
   "license": "MIT",
   "author": "Theodor Shaytanov <brainenjii@gmail.com>",
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/corefw/core-model#readme",
   "main": "index.js",
   "dependencies": {
-    "@corefw/common": "^5.1.21",
+    "@corefw/common": "^6.0.0",
     "requireindex": "^1.1.0"
   },
   "//dependencies": {},
@@ -37,7 +37,7 @@
     "docs": "./scripts/docs/build-docs-local.sh",
     "browser-sync": "./scripts/pm2/browser-sync/do-pm2-action.sh",
     "build-docs": "./scripts/pm2/build-docs/do-pm2-action.sh",
-    "lint": "eslint . --ext .json --ext .js",
+    "lint": "eslint . --ext .json,.js,.md",
     "pretest": "npm run lint",
     "test": "echo \"No tests\""
   },
