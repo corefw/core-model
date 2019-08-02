@@ -39,7 +39,7 @@ indent_size = 2
 [*.md]
 trim_trailing_whitespace = false
 
-# -- Jade files ----------------------------------------------------------- #
+# -- Jade files  ---------------------------------------------------------- #
 
 [*.jade]
 indent_style = space
